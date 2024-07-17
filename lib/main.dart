@@ -13,16 +13,10 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text(
-          title,
-          textDirection: TextDirection.ltr,
-          style: const TextStyle(
-            color: Color.fromARGB(255, 89, 223, 133), 
-            fontSize: 50.0,
-          ),
-        ),
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: Container(
+        child: const Center(child: Text('Romário Lima')),
       ),
     );
   }
