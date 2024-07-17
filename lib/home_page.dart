@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const AppWidget(
-    title: 'Romáriogold',
-  ));
-}
-
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
